@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Challenge</title>
+
+    <!-- Link the CSS file here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enter your bill?</h1>
+        <p class="note">
+            Note: <br>
+            If your bill is between 50 to 250 tip is 15% <br>
+            If your bill is above 300 tip is 20%
+        </p>
+        <input type="number" id="bill" placeholder="Enter bill amount">
+        <button onclick="calculateTip()">Calculate</button>
+
+        <p id="tip-output"></p>
+    </div>
+
+    <p id="tip-output"></p>
+    <script src="script.js"></script>
+</body>
+</html>
